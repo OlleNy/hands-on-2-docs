@@ -96,6 +96,9 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
+    """Print the atom-, molecule- and atomization energies  to the
+    terminal window.
+    """
 
     N2 = HDMolecule("N", distance)
 
